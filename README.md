@@ -11,7 +11,7 @@ npm i -D eslint-config-qics
 after the installation is successful, extend your package.json as follows
 
 ```
-eslintConfig: {
+"eslintConfig": {
   "extends": "eslint-config-qics"
 }
 ```
