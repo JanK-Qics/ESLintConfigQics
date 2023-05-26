@@ -78,7 +78,7 @@
                 ],
                 "@typescript-eslint/explicit-function-return-type": "warn",
                 "require-jsdoc": [
-                    "off",
+                    "warn",
                     {
                         "require": {
                             "FunctionDeclaration": true,
