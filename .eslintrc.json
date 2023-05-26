@@ -15,9 +15,10 @@
                 "plugin:@angular-eslint/template/process-inline-templates",
                 "plugin:import/recommended",
                 "plugin:import/typescript",
-                "plugin:rxjs/recommended"
+                "plugin:rxjs/recommended",
+                "plugin:jsdoc/recommended-typescript"
             ],
-            "plugins": ["unused-imports", "sort-class-members", "rxjs", "deprecation"],
+            "plugins": ["unused-imports", "sort-class-members", "jsdoc", "rxjs", "deprecation"],
             "rules": {
                 "@angular-eslint/directive-selector": [
                     "error",
@@ -77,18 +78,6 @@
                     }
                 ],
                 "@typescript-eslint/explicit-function-return-type": "warn",
-                "require-jsdoc": [
-                    "warn",
-                    {
-                        "require": {
-                            "FunctionDeclaration": true,
-                            "MethodDefinition": true,
-                            "ClassDeclaration": false,
-                            "ArrowFunctionExpression": false,
-                            "FunctionExpression": false
-                        }
-                    }
-                ],
                 "unused-imports/no-unused-imports": "warn",
                 "sort-class-members/sort-class-members": [
                     "warn",

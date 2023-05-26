@@ -1,10 +1,12 @@
 {
   "name": "eslint-config-qics",
-  "version": "1.15.3",
+  "version": "1.15.4",
   "description": "Set of eslint rules for Angular clients.",
   "main": "index.js",
   "license": "ISC",
-  "repository": {"url": "https://github.com/JanK-Qics/ESLintConfigQics"},
+  "repository": {
+    "url": "https://github.com/JanK-Qics/ESLintConfigQics"
+  },
   "scripts": {
     "install-ncu": "npm i -g npm-check-updates",
     "update-minor": "ncu -t minor",
@@ -26,6 +28,7 @@
     "eslint-import-resolver-typescript": "3.5.5",
     "eslint-plugin-deprecation": "1.4.1",
     "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsdoc": "44.2.7",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-rxjs": "5.0.3",
     "eslint-plugin-sort-class-members": "1.18.0",
