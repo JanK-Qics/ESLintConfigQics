@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qics",
-  "version": "1.15.4",
+  "version": "1.15.5",
   "description": "Set of eslint rules for Angular clients.",
   "main": "index.js",
   "license": "ISC",
